@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.vig.druid.ldap;
+package com.vig.druid.ldap.authorizer;
 
 import io.druid.server.security.Access;
 import io.druid.server.security.Action;
@@ -24,7 +24,7 @@ import io.druid.server.security.Resource;
  *
  * @author Vignesh
  */
-public class Authorizer implements io.druid.server.security.Authorizer{
+public class DruidLdapAuthorizer implements io.druid.server.security.Authorizer{
 
     @Override
     public Access authorize(AuthenticationResult ar, Resource rsrc, Action action) {
