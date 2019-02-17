@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.vig.druid.ldap.authenticator;
+package com.vig.druid.ldap;
 
 import io.druid.server.security.AuthenticationResult;
 import io.druid.server.security.Authenticator;
